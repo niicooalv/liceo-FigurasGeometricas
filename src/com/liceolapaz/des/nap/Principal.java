@@ -30,13 +30,13 @@ public class Principal {
                 }
                 case 3: { // Cuadrado
                     double lado = pedirDato("Escribe el lado");
-                    Cuadrado cuadrado = new Cuadrado(lado);
+                    figura = new Cuadrado(lado);
                     break;
                 }
                 case 4: { //Pentagono
                     double lado = pedirDato("Escribe el lado");
                     double apotema = pedirDato("Escribe el apotema");
-                    Pentagono pentagono = new Pentagono(lado, apotema);
+                    figura = new Pentagono(lado, apotema);
                     break;
                      }
                  case 0: {
@@ -53,11 +53,6 @@ public class Principal {
         }
         }
 
-/*   private static int pedirTexto(String texto) {
-       Scanner scanner = new Scanner(System.in);
-       System.out.println(texto);
-       return scanner.nextInt();
-   }*/
 private static double pedirDato(String texto) {
     Scanner scanner = new Scanner(System.in);
     System.out.println(texto);
