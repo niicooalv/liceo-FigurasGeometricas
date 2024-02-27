@@ -8,7 +8,7 @@ public class Principal {
     public static void main(String[] args) {
         FiguraGeometrica figura = null;
         while(true) {
-            switch(pedirTexto("""
+            switch((int) pedirDato("""
                     FIGURAS GEOMÉTRICAS
                     1. Triángulo
                     2. Rectángulo
@@ -53,11 +53,11 @@ public class Principal {
         }
     }
 
-    private static int pedirTexto(String texto) {
+ /*   private static int pedirTexto(String texto) {
         Scanner scanner = new Scanner(System.in);
         System.out.println(texto);
         return scanner.nextInt();
-    }
+    }*/
     private static double pedirDato(String texto) {
         Scanner scanner = new Scanner(System.in);
         System.out.println(texto);
