@@ -22,11 +22,12 @@ public class Principal {
                     double lado3 = pedirDato("Escribe el lado 3");
                     double altura = pedirDato("Escribe la altura");
                     figura = new Triangulo(lado1, lado2, lado3, altura);
-                    break;}
+                    break;
+                }
                 case 2: { // Rectángulo
                     double base = pedirDato("Escribe la base");
                     double altura = pedirDato("Escribe la altura");
-                    figura= new Rectangulo(base, altura);
+                    figura = new Rectangulo(base, altura);
                 }
                 case 3: { // Cuadrado
                     double lado = pedirDato("Escribe el lado");
