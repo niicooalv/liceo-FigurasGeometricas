@@ -39,17 +39,17 @@ public class Principal {
                     Pentagono pentagono = new Pentagono(lado, apotema);
                     break;
                      }
-                             case 0: {
-                             System.out.println("Saliendooo...");
+                 case 0: {
+                    System.out.println("Saliendooo...");
                     System.exit(0);
                 }
-default: {
-        System.out.println("Error opción incorrecta");
+                default: {
+                    System.out.println("Error opción incorrecta");
 
                 }
 
-                        }
-                        System.out.println("El area es " + figura.calcularArea() + " y el perimetro es " + figura.calcularPerimetro());
+            }
+            System.out.println("El area es " + figura.calcularArea() + " y el perimetro es " + figura.calcularPerimetro());
         }
         }
 
