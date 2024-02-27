@@ -39,29 +39,29 @@ public class Principal {
                     Pentagono pentagono = new Pentagono(lado, apotema);
                     break;
                      }
-                case 0: {
-                    System.out.println("Saliendooo...");
+                             case 0: {
+                             System.out.println("Saliendooo...");
                     System.exit(0);
                 }
-                default: {
-                    System.out.println("Error opción incorrecta");
+default: {
+        System.out.println("Error opción incorrecta");
 
                 }
 
-            }
-            System.out.println("El area es " + figura.calcularArea() + " y el perimetro es " + figura.calcularPerimetro());
+                        }
+                        System.out.println("El area es " + figura.calcularArea() + " y el perimetro es " + figura.calcularPerimetro());
         }
-    }
+        }
 
- /*   private static int pedirTexto(String texto) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println(texto);
-        return scanner.nextInt();
-    }*/
-    private static double pedirDato(String texto) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println(texto);
-        return scanner.nextDouble();
-    }
+/*   private static int pedirTexto(String texto) {
+       Scanner scanner = new Scanner(System.in);
+       System.out.println(texto);
+       return scanner.nextInt();
+   }*/
+private static double pedirDato(String texto) {
+    Scanner scanner = new Scanner(System.in);
+    System.out.println(texto);
+    return scanner.nextDouble();
+}
 
 }
