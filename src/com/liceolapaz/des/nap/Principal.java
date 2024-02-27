@@ -1,6 +1,7 @@
 //Ejercicio java Figuras geometricas
 //Programación 1º de desarrollo de aplicaciones
 //2024 Liceo la Paz
+//
 package com.liceolapaz.des.nap;
 import java.util.Scanner;
 
